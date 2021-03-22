@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "turnos",
+  "info": {
+    "name": "Turno",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "inicio": {
+      "type": "time"
+    },
+    "fin": {
+      "type": "time"
+    }
+  }
+}

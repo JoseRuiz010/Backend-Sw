@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ops",
+  "info": {
+    "name": "Op",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "richtext"
+    },
+    "inicio": {
+      "type": "datetime"
+    },
+    "fin": {
+      "type": "datetime"
+    },
+    "color": {
+      "model": "color"
+    },
+    "modelo": {
+      "model": "modelo"
+    },
+    "linea": {
+      "model": "linea"
+    },
+    "horarios": {
+      "collection": "horario",
+      "via": "op"
+    },
+    "estado_op": {
+      "model": "estado-op"
+    }
+  }
+}

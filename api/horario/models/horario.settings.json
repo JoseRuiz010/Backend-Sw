@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "horarios",
+  "info": {
+    "name": "Horario",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Inicio": {
+      "type": "time"
+    },
+    "fin": {
+      "type": "time"
+    },
+    "hallazgos": {
+      "collection": "hallazgo",
+      "via": "horario"
+    },
+    "primera": {
+      "model": "primera"
+    },
+    "op": {
+      "via": "horarios",
+      "model": "op"
+    }
+  }
+}

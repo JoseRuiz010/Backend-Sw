@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipo_empleados",
+  "info": {
+    "name": "TipoEmpleado",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Descripcion": {
+      "type": "string"
+    },
+    "tipo_empleado": {
+      "model": "tipo-empleado"
+    }
+  }
+}

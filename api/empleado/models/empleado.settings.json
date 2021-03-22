@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empleados",
+  "info": {
+    "name": "Empleado",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "legajo": {
+      "type": "string"
+    },
+    "tipo_empleado": {
+      "model": "tipo-empleado"
+    },
+    "user": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hallazgos",
+      "handler": "hallazgo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hallazgos/count",
+      "handler": "hallazgo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hallazgos/:id",
+      "handler": "hallazgo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hallazgos",
+      "handler": "hallazgo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hallazgos/:id",
+      "handler": "hallazgo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hallazgos/:id",
+      "handler": "hallazgo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

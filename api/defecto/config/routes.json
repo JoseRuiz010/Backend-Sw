@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/defectos",
+      "handler": "defecto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/defectos/count",
+      "handler": "defecto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/defectos/:id",
+      "handler": "defecto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/defectos",
+      "handler": "defecto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/defectos/:id",
+      "handler": "defecto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/defectos/:id",
+      "handler": "defecto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipo-empleados",
+      "handler": "tipo-empleado.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-empleados/count",
+      "handler": "tipo-empleado.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-empleados/:id",
+      "handler": "tipo-empleado.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipo-empleados",
+      "handler": "tipo-empleado.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipo-empleados/:id",
+      "handler": "tipo-empleado.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipo-empleados/:id",
+      "handler": "tipo-empleado.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "primeras",
+  "info": {
+    "name": "Primera",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Cantidad": {
+      "type": "integer"
+    }
+  }
+}

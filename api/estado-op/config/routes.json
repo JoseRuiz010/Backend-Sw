@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/estado-ops",
+      "handler": "estado-op.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estado-ops/count",
+      "handler": "estado-op.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/estado-ops/:id",
+      "handler": "estado-op.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/estado-ops",
+      "handler": "estado-op.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/estado-ops/:id",
+      "handler": "estado-op.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/estado-ops/:id",
+      "handler": "estado-op.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

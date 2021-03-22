@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "defectos",
+  "info": {
+    "name": "Defecto",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Descripcion": {
+      "type": "string"
+    },
+    "tipo_defecto": {
+      "model": "tipo-defecto"
+    }
+  }
+}

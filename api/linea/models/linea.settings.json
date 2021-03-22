@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lineas",
+  "info": {
+    "name": "Linea",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "numero": {
+      "type": "integer"
+    },
+    "SupLinea": {
+      "model": "empleado"
+    },
+    "SupCalidad": {
+      "model": "empleado"
+    }
+  }
+}

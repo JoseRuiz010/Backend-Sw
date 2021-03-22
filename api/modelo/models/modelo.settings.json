@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modelos",
+  "info": {
+    "name": "Modelo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "SKU": {
+      "type": "string"
+    },
+    "Denominacion": {
+      "type": "string"
+    },
+    "Objetivo": {
+      "type": "integer"
+    }
+  }
+}

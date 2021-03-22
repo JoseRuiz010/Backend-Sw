@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "estado_ops",
+  "info": {
+    "name": "EstadoOp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Estado": {
+      "type": "string"
+    }
+  }
+}

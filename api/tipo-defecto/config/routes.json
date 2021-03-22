@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tipo-defectos",
+      "handler": "tipo-defecto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-defectos/count",
+      "handler": "tipo-defecto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tipo-defectos/:id",
+      "handler": "tipo-defecto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tipo-defectos",
+      "handler": "tipo-defecto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tipo-defectos/:id",
+      "handler": "tipo-defecto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tipo-defectos/:id",
+      "handler": "tipo-defecto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pies",
+  "info": {
+    "name": "Pie",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Descripcion": {
+      "type": "string"
+    }
+  }
+}

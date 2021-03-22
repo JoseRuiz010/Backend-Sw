@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hallazgos",
+  "info": {
+    "name": "Hallazgo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Hora": {
+      "type": "date"
+    },
+    "pie": {
+      "model": "pie"
+    },
+    "defecto": {
+      "model": "defecto"
+    },
+    "horario": {
+      "via": "hallazgos",
+      "model": "horario"
+    }
+  }
+}
